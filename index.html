@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Amazon styled navigation menu</title>
+</head>
+<body>
+  <nav class="menu" id="menu">
+    <div class="container container-menu-buttons">
+      <button id="btn-menu-bars" class="btn-menu-bars"><i class="fas fa-bars"></i></button>
+      <button id="btn-menu-close" class="btn-menu-close"><i class="fas fa-times"></i></button>
+    </div>
+
+    <div class="container container-nav-links">
+      <div class="btn-departments" id="btn-departments">
+        <p>All <span>Departments</span></p>
+        <i class="fas fa-caret-down"></i>
+      </div>
+
+      <div class="links">
+        <a href="#">Account</a>
+        <a href="#">Today's Deals</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Help</a>
+      </div>
+    </div>
+
+    <div class="container container-grid">
+      <div class="grid" id="grid">
+        <div class="categories">
+          <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+          <h3 class="subtitle">Categories</h3>
+
+          <a href="#" data-category="technology-computers">Technology & Computers <i class="fas fa-angle-right"></i></a>
+          <a href="#" data-category="books">Books <i class="fas fa-angle-right"></i></a>
+          <a href="#" data-category="clothing-accessories">Clothing & Accessories <i class="fas fa-angle-right"></i></a>
+          <a href="#" data-category="home-kitchen">Home & Kitchen <i class="fas fa-angle-right"></i></a>
+          <a href="#" data-category="games-toys">Games & Toys <i class="fas fa-angle-right"></i></a>
+          <a href="#" data-category="health-beauty">Health & Beauty <i class="fas fa-angle-right"></i></a>
+          <a href="#" data-category="food-drinks">Food & Drinks <i class="fas fa-angle-right"></i></a>
+        </div>
+
+        <div class="container-subcategories">
+          <div class="subcategory active" data-category="technology-computers">
+            <div class="subcategory-links">
+              <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+              <h3 class="subtitle">Technology & Computers</h3>
+              <a href="#">Laptops</a>
+              <a href="#">Tablets</a>
+              <a href="#">Desktop Computers</a>
+              <a href="#">Screens</a>
+              <a href="#">Components</a>
+            </div>
+            <div class="subcategory-banner">
+              <a href="#">
+                <img src="img/tecnologia-banner-1.png" alt="Banner">
+              </a>
+            </div>
+            <div class="subcategory-gallery">
+              <a href="#">
+                <img src="img/tecnologia-galeria-1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/tecnologia-galeria-2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/tecnologia-galeria-3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/tecnologia-galeria-4.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="subcategory" data-category="books">
+            <div class="subcategory-links">
+              <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+              <h3 class="subtitle">Books</h3>
+              <a href="#">Top Sellers</a>
+              <a href="#">Fiction</a>
+              <a href="#">Fantasy</a>
+              <a href="#">Horror</a>
+              <a href="#">Romance</a>
+            </div>
+            <div class="subcategory-banner">
+              <a href="#">
+                <img src="img/libros-banner-1.png" alt="Banner">
+              </a>
+            </div>
+            <div class="subcategory-gallery">
+              <a href="#">
+                <img src="img/libros-galeria-1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/libros-galeria-2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/libros-galeria-3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/libros-galeria-4.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="subcategory" data-category="clothing-accessories">
+            <div class="subcategory-links">
+              <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+              <h3 class="subtitle">Clothing & Accessories </h3>
+              <a href="#">Clothes</a>
+              <a href="#">Shoes</a>
+              <a href="#">Accessories</a>
+              <a href="#">Watches</a>
+            </div>
+            <div class="subcategory-banner">
+              <a href="#">
+                <img src="img/ropa-banner-1.png" alt="Banner">
+              </a>
+            </div>
+            <div class="subcategory-gallery">
+              <a href="#">
+                <img src="img/ropa-galeria-1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/ropa-galeria-2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/ropa-galeria-3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/ropa-galeria-4.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="subcategory" data-category="home-kitchen">
+            <div class="subcategory-links">
+              <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+              <h3 class="subtitle">Home & Kitchen</h3>
+              <a href="#">Kitchen</a>
+              <a href="#">Furniture</a>
+              <a href="#">Bath</a>
+              <a href="#">Cleaning Supplies</a>
+              <a href="#">Bedroom</a>
+              <a href="#">Wall Art & Decoration</a>
+              <a href="#">Kid's Room</a>
+              <a href="#">Lighting</a>
+            </div>
+            <div class="subcategory-banner">
+              <a href="#">
+                <img src="img/hogar-banner-1.png" alt="Banner">
+              </a>
+            </div>
+            <div class="subcategory-gallery">
+              <a href="#">
+                <img src="img/hogar-galeria-1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/hogar-galeria-2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/hogar-galeria-3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/hogar-galeria-4.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="subcategory" data-category="games-toys">
+            <div class="subcategory-links">
+              <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+              <h3 class="subtitle">Games & Toys</h3>
+              <a href="#">Toys</a>
+              <a href="#">Board Games</a>
+              <a href="#">Outdoors games</a>
+              <a href="#">Dolls</a>
+            </div>
+            <div class="subcategory-banner">
+              <a href="#">
+                <img src="img/juegos-banner-1.png" alt="Banner">
+              </a>
+            </div>
+            <div class="subcategory-gallery">
+              <a href="#">
+                <img src="img/juegos-galeria-1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/juegos-galeria-2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/juegos-galeria-3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/juegos-galeria-4.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="subcategory" data-category="health-beauty">
+            <div class="subcategory-links">
+              <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+              <h3 class="subtitle">Health & Beauty</h3>
+              <a href="#">Skin care</a>
+              <a href="#">Make up</a>
+              <a href="#">Lotions</a>
+              <a href="#">Shampoo</a>
+              <a href="#">Cologne</a>
+            </div>
+            <div class="subcategory-banner">
+              <a href="#">
+                <img src="img/belleza-banner-1.png" alt="Banner">
+              </a>
+            </div>
+            <div class="subcategory-gallery">
+              <a href="#">
+                <img src="img/belleza-galeria-1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/belleza-galeria-2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/belleza-galeria-3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/belleza-galeria-4.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="subcategory" data-category="food-drinks">
+            <div class="subcategory-links">
+              <button class="btn-back"><i class="fas fa-arrow-left"></i> Go Back</button>
+              <h3 class="subtitle">Food & Drinks</h3>
+              <a href="#">Food</a>
+              <a href="#">Drinks</a>
+            </div>
+            <div class="subcategory-banner">
+              <a href="#">
+                <img src="img/comida-banner-1.png" alt="Banner">
+              </a>
+            </div>
+            <div class="subcategory-gallery">
+              <a href="#">
+                <img src="img/comida-galeria-1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/comida-galeria-2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/comida-galeria-3.png" alt="">
+              </a>
+              <a href="#">
+                <img src="img/comida-galeria-4.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <article></article>
+  </main>
+
+  <script src="https://kit.fontawesome.com/eea5dcc8ef.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
