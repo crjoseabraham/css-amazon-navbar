@@ -7,6 +7,7 @@
 body {
   background-color: #EAEDED;
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 a {
